@@ -26,7 +26,7 @@ import "./styles.css";
 const siteProps = {
   name: "Uğur Gümüş",
   title: "Junior Python Developer",
-  email: "agrogur@gmail.com",
+  email: "info@ugurgumus.tech",
   gitHub: "agrogur",
   instagram: "agrogur",
   linkedIn: "agrogur",
