@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/cip-certificate.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "stanford university's #cip certificate";
 
 /**
  * Project list
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: " My Final CIP 2023 Project 🎉",
+    description: " A simple word guessing game  where the player tries to guess a randomly chosen word by entering single letters, with  limited guesses allowed.",
+    url: "https://codeinplace.stanford.edu/cip3/share/n8v2zBB4ytpnCCvX7ygM",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Coding Challenges",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "My coding challenges from Code in Place 2023. Includes 18 challenges from the course.",
+    url: "",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "My Blogposts on Blogger",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "My blogposts on Blogger. Each blogpost is about a different topic.",
+    url: "",
   },
 ];
 
