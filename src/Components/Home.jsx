@@ -49,4 +49,12 @@ Home.propTypes = {
   title: PropTypes.string.isRequired,
 };
 
+const Home = ({ imageAltText }) => {
+  return (
+    <div className="scroll-down-arrow"> {/* Apply the CSS class */}
+      <img src={arrowSvg} alt={imageAltText} />
+    </div>
+  );
+};
+
 export default Home;
