@@ -33,6 +33,7 @@ const description =
 const skillsList = [
   "Python Programming",
   "Data Analysis",
+  "Responsive Web Design",
 ];
 
 /**
