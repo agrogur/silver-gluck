@@ -127,42 +127,6 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
-/*animate the scroll down arrow in your Home component to bounce up and down on your page.*/
-@keyframes bounce {
-  0%,
-  100%,
-  20%,
-  50%,
-  80% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-  40% {
-    -webkit-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-  60% {
-    -webkit-transform: translateY(-12px);
-    -ms-transform: translateY(-12px);
-    transform: translateY(-12px);
-  }
-}
-/* Path: src/components/ScrollDownArrow.js */
-/**
-* Component to render a scroll down arrow
-*/
-
-.scroll-down-arrow {
-  animation: bounce 2s infinite;
-  bottom: 20px;
-  height: 40px;
-  left: 50%;
-  margin-left: -20px;
-  position: absolute;
-  width: 40px;
-}
 
 
 
