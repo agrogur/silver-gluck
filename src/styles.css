@@ -127,18 +127,23 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
-/* animate arrowSvg */
-@keyframes arrowSvg {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, 10px);
-  }
+/*animate the scroll down arrow  arrowSvg */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
   100% {
-    transform: translate(0, 0);
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-12px);
   }
 }
+
 
 
 
