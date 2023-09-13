@@ -50,3 +50,4 @@ Home.propTypes = {
 };
 
 export default Home;
+
